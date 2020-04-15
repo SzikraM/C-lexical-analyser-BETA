@@ -13,3 +13,6 @@ so 3.14 and 8567 are valid, but 3.14f, 3.14d, or 8567l will all cause LEXICAL ER
 
 Escaping in character constants is currently not supported, so 'a' is valid, but special characters like '\n' are not recognized.
 Escaping in string constants works though.
+
+The actual project consist of lexical_analyser.c and lexical_analyser.h, but I added some test files containing C source code,
+and a sample main too.
